@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* App.css */
+body.light {
+  background-color: white;
+  color: black;
+}
+
+body.dark {
+  background-color: black;
+  color: white;
+}
+
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.App.light .btn {
+  color: black;
+  border-color: black;
+}
+
+.App.dark .btn {
+  color: white;
+  border-color: white;
+}
+
+.btn {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: 2px solid;
+  border-radius: 5px;
+  background: transparent;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+h1,
+h2 {
+  margin-bottom: 20px;
+}
